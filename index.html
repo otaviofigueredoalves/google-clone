@@ -3,66 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
     <title>Google</title>
 </head>
 <body>
-    <section class="container">
-        <header id="header-container">
-            <nav id="container-nav">
-                <div class="links">
-                    <ul>
-                        <li><a href="">Gmail</a></li>
-                        <li><a href="">Imagens</a></li>
-                    </ul>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com/intl/en-US/gmail/about/" target="_blank">Gmail</a></li>
+                <li><a href="https://www.google.com/imghp?hl=pt-BR&ogbl" target="_blank">Imagens</a></li>
+                <!-- MENU ICON -->
+                <div id="menu-box">
+                    <li><a href="https://www.google.com.br/intl/pt-BR/about/products?tab=ih" target="_blank"><img id="menu" src="assets/menu.png" alt="menu"></a></li>
                 </div>
-                <div id="boxApps">
-                    <div class="IconBox">
-                        <div id="userIconContent">
-                            <a href="">
-                                <div class="icon" id="iconProfile"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="IconBox" id="appsBox">
-                        <id id="appsIconContent">
-                            <a href="">
-                                <div class="icon" id="iconApps"></div>
-                            </a>
-                        </id>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <section class="container">
-            <main id="main-container">
-                <div id="main-box">
-                    <div id="main-content">
-                        <div id="google-logo">
-                            <img src="assets/google.png" alt="Logo do Google">
-                        </div>
-                        <div id="form-search-container">
-                            <form action="" method="get" id="formSearch">
-                                <div class="inputSearch">
-                                    <!-- <img src="assets/Google_mic.svg.png" alt="mic icon"> -->
-                                    <input type="search" name="inputS" id="inputS">
-                                    <div id="search-buttons">
-                                        <button type="submit">Pesquisar Google</button>
-                                        <button type="submit">Estou com sorte</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </section>
-        <footer>
-        
-        </footer>
+                <!-- PROFILE ICON -->
+                <li><a href="https://accounts.google.com/SignOutOptions?hl=pt-BR&continue=https://www.google.com/&ec=GBRAmgQ" target="_blank"><img id="logo" src="assets/profile.png" alt="profile"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="logoGoogle">
+            <div id="google-content">
+                <img src="assets/google.png" alt="google logo">
+            </div>
+        </div>
+        <div id="input">
+            <div id="iconSearch">
+                <img id="search" src="assets/search.png" alt="search">
+            </div>
+            <input type="text" name="" id="searchBar" autofocus>
+            <div id="iconLinks">
+                <a href=""><img id="keyboard" src="assets/keyboard.png" alt="keyboard icon" title="Ferramenta de inserção de texto"></a>
+                <a href=""><img id="mic" src="assets/mic.png" alt="mic icon" title="Pesquisa por voz"></a>
+            </div>
+        </div>
+        <div id="buttons">
+            <button type="submit">Pesquisar Google</button>
+            <button type="submit">Estou com sorte</button>
+        </div>
     </section>
-
-
+    <footer>
+        <div id="footer-header">
+            <span>Brasil</span>
+        </div>
+        <div id="footer-links">
+            <div id="footer-links-content">
+                <div id="span-left">
+                    <a href="">Sobre</a>
+                    <a href="">Publicidade</a>
+                    <a href="">Negócios</a>
+                    <a href="">Como funciona a Pesquisa</a>
+                </div>
+                <div id="span-right">
+                    <a href="">Privacidade</a>
+                    <a href="">Termos</a>
+                    <a href="">Configurações</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

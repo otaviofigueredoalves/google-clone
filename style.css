@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+#header-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: gray; */
+}
+
+/* NAV BAR */
+
+#container-nav {
+    display: flex;
+    justify-content: end;
+    width: calc(100% - 20px);
+    padding: 10px;
+    /* background-color: red; */
+    align-items: center;
+}
+#container-nav ul {
+    display: flex;
+}
+.links a {
+    font-size: 2.0rem;
+    text-decoration: none;
+    padding: 2px 0;
+    margin-left: 30px;
+}
+.links {
+    display: flex;
+    /* background-color: pink; */
+}
+
+/* NAV BAR - ICONS BOX */
+
+#boxApps {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#boxApps a {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+}
+
+.IconBox {
+    /* background-color: green; */
+    width: 50px;
+    height: 50px;
+
+}
+#appsBox {
+    margin: 0 30px;
+}
+#userIconContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+#iconProfile {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    background-image: url(assets/user-338-32.png)
+}
+
+#iconApps {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+    border-radius: 100%;
+    background-image: url(assets/bitmap.png)
+}
+
+#appsIconContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+
+}
+
+/* Main Section */
+#main-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: green; */
+    height: 50vh;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#main-box {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: calc(100% - 20px);
+}
+
+#form-search-container {
+    /* background-color: yellow; */
+    width: 850px;
+
+}
+#search-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#formSearch button {
+    font-size: 2.2rem;
+    padding: 10px 15px;
+    border: none;
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+#inputSearch {
+    display: flex;
+    justify-content: center;
+}
+
+#inputS{
+    height: 60px;
+    width: 100%;
+    border: 2px solid #dfdfdf;
+    border-radius: 50px;
+    
+}
+
+#google-logo img {
+    height: 150px;
+    
+}
+.inputSearch img {
+    height: 50px;
+}
+#search-buttons {
+    margin-top: 30px;
+}
+

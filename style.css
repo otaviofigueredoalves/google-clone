@@ -153,9 +153,7 @@ footer a {
     color: var(--text-main-color);
     border-bottom: none;
 }
-footer a:hover {
-    border-bottom: 1px solid #000000;
-}
+
 
 
 #footer-header {
@@ -182,6 +180,9 @@ footer a:hover {
 }
 #footer-links a{
     text-decoration: none;
+}
+#footer-links a:hover {
+    text-decoration: underline;
 }
 
 #span-left a{

@@ -1,0 +1,42 @@
+@media screen and (max-width: 1011px){
+    #span-left,#span-right {
+        display: flex;
+        flex-flow: column wrap;
+        overflow: hidden;
+        
+    }
+    #span-left a, #span-right a {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 505px){
+    :root {
+        font-size: 35%;
+    }
+    #google-content img{
+        height: 100px;
+    }
+    #input {
+        /* background-color: red; */
+        width: 350px;
+    }
+    #searchBar {
+        width: 200px;
+    }
+    header {
+        font-size: 2.0rem;
+    }
+}
+
+@media screen and (max-width: 367px){
+    #google-content img {
+        height: 70px;
+    }
+    #input {
+        width: 300px;
+    }
+    #searchBar {
+        width: 170px;
+    }
+
+}

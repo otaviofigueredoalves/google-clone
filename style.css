@@ -136,14 +136,13 @@ section {
     padding: 10px 15px;
     border: 0;
     background-color: var(--main-gray);
+    color: var(--text-main-color);
 }
 #buttons button:hover{
     background-color: var(--second-gray);
     cursor: pointer;
 }
-#buttons a {
-    color: var(--text-main-color)
-}
+
 
 /* FOOTER */
 

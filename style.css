@@ -141,6 +141,9 @@ section {
     background-color: var(--second-gray);
     cursor: pointer;
 }
+#buttons a {
+    color: var(--text-main-color)
+}
 
 /* FOOTER */
 
@@ -148,6 +151,7 @@ footer {
     display: flex;
     flex-direction: column;
     font-size: 2.0rem;
+    
 }
 footer a {
     color: var(--text-main-color);
@@ -165,16 +169,16 @@ footer a {
     padding: 20px 0px;
     
 }
-#footer-header span{
-    margin-left: 40px;
+#footer-header span {
+    padding-left: 20px;
 }
 
+
 #footer-links {
-    padding: 15px 0px;
+    padding: 25px 0px;
     background-color: var(--main-gray);
 }
 #footer-links-content {
-    margin: 0 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -185,9 +189,9 @@ footer a {
     text-decoration: underline;
 }
 
-#span-left a{
-    margin-right: 40px;
+#span-left, #span-right {
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
 }
-#span-right a {
-    margin-left: 40px;
-}
+

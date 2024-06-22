@@ -1,12 +1,14 @@
 @media screen and (max-width: 1011px){
-    #span-left,#span-right {
+    #span-left ul,#span-right ul {
         display: flex;
         flex-flow: column wrap;
+        align-items: flex-start;
         overflow: hidden;
         
     }
+ 
     #span-left a, #span-right a {
-        margin-top: 20px;
+        margin-bottom: 30px;
     }
 }
 @media screen and (max-width: 505px){
@@ -28,15 +30,15 @@
     }
 }
 
-@media screen and (max-width: 367px){
-    #google-content img {
-        height: 70px;
-    }
-    #input {
-        width: 300px;
+@media screen and (max-width: 349px){
+    #input{
+       width: 300px;
     }
     #searchBar {
-        width: 170px;
+        width: 150px;
+    }
+    #google-content img {
+        height: 80px;
     }
 
 }
